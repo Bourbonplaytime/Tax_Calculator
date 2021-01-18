@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <head>
+    <title>Data Driven Web Pages - Tax Calculator</title>
+    <link rel="stylesheet" type="text/css" href="tax_calc_styles.css">
+  </head>
+  <body>
+    <h2>Tax Calculator</h2>
+    <h4>Please do not enter anything other than numeric characters in the text boxes. This will not work with any other inputs.</h4>
+    <form name="taxForm">
+      <p>Please enter your income: $
+        <input type="text" name="income">
+      </p>
+      <p><input type="button" id="calc" value="Calculate Tax"></p>
+      <p>Your tax liability before deductions is: $
+        <input type="text" name="liability">
+      </p>
+    </form>
+    <div id="message">
+    </div>
+    <script src="tax_calc.js"></script>
+  </body>
+</html>
